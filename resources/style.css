@@ -610,7 +610,7 @@ right:4vw;
 
 
 /*----------------------RESPONSIVE PHONE 411px x 823----------------------------------------------------------*/
-@media only screen and (min-height: 823px) and (max-width:411px){
+@media only screen and (max-height: 823px) and (max-width:411px){
   html{
     margin: auto;
   }
@@ -630,7 +630,7 @@ right:4vw;
   }
   
   .o-social-media{
-    margin-top: -6vh;
+    margin-top: -3vh;
     position: relative;
     margin-left: 13vw;
     width: 15%;
@@ -715,7 +715,7 @@ right:4vw;
 
 
 /*----------------------RESPONSIVE SURFACE DUO ----------------------------------------------------------*/
-@media only screen and (min-height:720px ) and (max-width:540px){
+@media only screen and (max-height:720px ) and (max-width:540px){
   .logo2{
     top: 53vh;
   }
