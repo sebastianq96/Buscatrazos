@@ -218,8 +218,8 @@ section {
 /*-----------------------------------Separador------------------------------------------------------------------*/
 
 .o-background{
-  z-index: -2;
-  top: 104vh;
+  z-index: 0;
+  top: 110vh;
   width: 100%;
 }
 
@@ -610,7 +610,7 @@ right:4vw;
 
 
 /*----------------------RESPONSIVE PHONE 411px x 823----------------------------------------------------------*/
-@media only screen and (min-height: 823px) and (min-width:411px){
+@media only screen and (min-height: 823px) and (max-width:411px){
   html{
     margin: auto;
   }
@@ -642,7 +642,7 @@ right:4vw;
 
 
 /*----------------------RESPONSIVE PHONE ----------------------------------------------------------*/
-@media only screen and (min-height: 812px) and (min-width:375px){
+@media only screen and (min-height: 812px) and (max-width:375px){
   *{margin: auto;}
 
   body{
