@@ -1,10 +1,13 @@
-body{
-    margin: 0;
-    overflow-x: hidden;
-  }
+
   *{ margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
   }
+
+  html, body {
+    overflow-x: hidden;
+    margin: 0;
+} 
+
   /*-----------------Declaración de variables-----------------------------------*/
   :root {
       --nav-text-color:#ffffff;
@@ -170,7 +173,15 @@ body{
       transform: rotate(-405deg);
     }
 
-
+    .loader {
+      position: absolute;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url('/Images/introBuscatrazos.gif') 50% 50% no-repeat;
+      opacity: 1;
+  }
 /*---------------------------------------Gallery--------------------------------------------------------------------------*/
 .content-gallery{
   margin-top: 5vh;
@@ -569,7 +580,7 @@ body{
 
   @media only screen and (max-width: 1024px){
     html, body {
-      height: 100vh;
+      overflow-x: hidden;
       margin: 0;
   } 
 
@@ -756,7 +767,19 @@ body{
         padding-top: 2vh;
         margin: auto;
         }
+
   }
+
+
+  /*--------------------------------------RESPONSIVE------------------------------------------------------------------*/
+
+  @media only screen and (min-width: 411px) and (max-width:1024px){
+    .m-p-g {
+      max-width: 93vw;
+      margin: auto;
+      z-index: 110;
+    }
+}
 
   
 

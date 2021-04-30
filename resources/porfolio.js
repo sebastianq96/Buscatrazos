@@ -1770,3 +1770,8 @@
                 document.addEventListener('DOMContentLoaded', function() {
                     var gallery = new MaterialPhotoGallery(elem);
                 });
+
+ type="text/javascript">
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+});   
