@@ -610,7 +610,7 @@ right:4vw;
 
 
 /*----------------------RESPONSIVE PHONE 411px x 823----------------------------------------------------------*/
-@media only screen and (max-height: 823px) and (max-width:411px){
+@media only screen and (min-height: 823px) and (min-width:411px){
   html{
     margin: auto;
   }
@@ -642,32 +642,62 @@ right:4vw;
 
 
 /*----------------------RESPONSIVE PHONE ----------------------------------------------------------*/
-@media only screen and (min-height: 812px) and (max-width:375px){
-  
-  html{
-    margin: auto;
-  }
+@media only screen and (min-height: 812px) and (min-width:375px){
+  *{margin: auto;}
 
   body{
     overflow-x: hidden;
+    margin: 0;
+  }
+
+  #menu-toggle{
+    display: flex;
+    height: 5vh;
+    width: 5vh;
+    opacity: 0;
+    margin-left: 85vw;
+    margin-top: -4vh;
+  }
+
+  .o-menu-button
+  { top: 8vh;
+  right: 8vw;
   }
 
   .logo2{
-    top: 56vh;
+    top: 57vh;
 }
 
   .o-background-movil{
-    top: 85vh;
+    top: 95vh;
     width: 100%;
     display: flex;
   }
 
   .o-whatsapp-content{
     top:86vh;
+    height: 1vh;
   }
+
+  .o-text-content{
+    margin-top: 20vw;
+    margin-left: 60vw;
+  }
+
+  .o-svg-image{
+    width: 4.3vw;
+  }
+
+  .o-border-image {
+    margin-left: -2vw;
+    height: 2vh;
+    width: 7vw;;
+  }
+
+
   
   .o-social-media{
-    margin-top: -6vh;
+    margin-top: -4vh;
     position: relative;
     margin-left: 13vw;
     width: 15%;
@@ -677,7 +707,7 @@ right:4vw;
   }
 }
 
-/*----------------------RESPONSIVE SURFACE DUO ----------------------------------------------------------*/
+/*----------------------RESPONSIVE GALAXY FOLD ----------------------------------------------------------*/
 @media only screen and (min-height:653px) and (max-width:280px){
   .logo2{
     top: 57vh;
@@ -690,11 +720,11 @@ right:4vw;
   }
 
   .o-text-content{
-    margin-top: 15vw;
+    margin-top: 20vw;
   }
 
   .o-social-media{
-    margin-top: -5vh;
+    margin-top: -8vh;
   }
 
   .o-whatsapp-content{
@@ -715,7 +745,7 @@ right:4vw;
 
 
 /*----------------------RESPONSIVE SURFACE DUO ----------------------------------------------------------*/
-@media only screen and (max-height:720px ) and (max-width:540px){
+@media only screen and (max-height:720px ) and (min-width:540px){
   .logo2{
     top: 53vh;
   }
